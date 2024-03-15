@@ -7,3 +7,39 @@
 /* font awesome */
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css');
 
+/* 외부에서 무료 아이콘을 받아올 때 버전을 잘 파악해야함 5버전을 쓰는데
+   6버전 가져오면 적용이 안되기 때문.
+*/
+
+
+/* reset */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+button, input {
+  outline: none;
+  border: none;
+  color: inherit;
+}
+
+/* common */
+* {
+  box-sizing: border-box;
+}
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+body {
+  font-size: 14px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.en {
+  font-family: 'Exo 2', sans-serif;
+}
+/* 모바일에서는 줄바꿈 해제 */
+br.mo {
+  display: none;
+}
