@@ -299,7 +299,80 @@ section.innovation div.sub-container .inner .bottom a{
   border-radius: 30px;
   color: white;
 }
+
+/* section.me style */
+
 section.me{
-  background: red;
+  background: url('../img/me.jpg') no-repeat center/cover;
+  padding: 80px 0;
+  margin-bottom: 150px;
 }
 
+section.me ul.list{
+  margin-top: 50px;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+section.me ul.list > li{
+  padding: 30px 60px;
+}
+section.me ul.list > li:first-child{
+  border-bottom: 1px solid #ddd;
+}
+section.me ul.list li h3{
+  font-size: 18px;
+  margin-bottom: 20px;
+  position: relative;
+}
+section.me ul.list li h3 span{
+  position: absolute;
+  left: -30px;
+  color: #ff8342;
+}
+section.me ul.list > li p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+section.me ul.list > li .more {
+  font-size: 16px;
+  font-weight: 700;
+}
+section.me ul.list > li .more span {
+  color: #ff8342;
+  font-size: 14px;
+  margin-left: 3px;
+}
+section.me ul.list ul.in {
+  margin-bottom: 30px;
+}
+section.me ul.list ul.in li em {
+  float: left;
+  width: 12%;
+  margin-top: 3px;
+  font-weight: 700;
+}
+section.me ul.list ul.in li p {
+  float: left;
+  position: relative;
+}
+section.me ul.list ul.in li p::before {
+  content: '';
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #ff8342;
+  position: absolute;
+  left: -40px;
+  top: 10px;
+}
+#incruit-btn {
+  width: 280px;
+  background: #ff8342;
+  color: #fff;
+  padding: 10px 0;
+  border-radius: 50px;
+  font-weight: 700;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto 0;
+}
