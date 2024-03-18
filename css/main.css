@@ -525,3 +525,81 @@ footer .inner .list li a:hover {
 }
 
 
+
+/* 태블릿 768px 해상도 (아이패드 미니) */
+@media (max-width: 768px) {
+    
+  section.main .main-title h2 {
+      font-size: 40px;
+  }
+  section.main .main-title p {
+      font-size: 20px;
+  }
+
+  section.about ul.sub-container li {
+      float: none;
+      width: 100%;
+      margin-bottom: 150px;
+  }
+
+  section.about ul.sub-container li .img-box {
+      height: 500px;
+  }
+
+  section.innovation .img-box .inner .bottom {
+      padding: 30px;
+  }
+
+  section.innovation .img-box .inner .bottom p {
+      float: none;
+      width: 100%;
+      margin-bottom: 30px;
+  }
+  section.innovation .img-box .inner .bottom a {
+      float: none;
+      display: block;
+      width: 200px;
+      text-align: center;
+      margin: 0 auto;
+  }
+
+  section.me {
+      padding: 50px 0;
+  }
+
+  section.me ul.list ul.in li em {
+      float: none;
+      display: block;
+      width: 100%;
+      font-size: 17px;
+      margin-bottom: 5px;
+  }
+
+  section.sns ul li {
+      float: none;
+      width: 100%;
+      margin-bottom: 10px;
+  }
+  section.sns ul li a .img-box {
+      height: 380px;
+  }
+
+  section.sns ul li a .bottom p.time {
+      margin-top: 10px;
+  }
+
+  footer .inner .ft-logo {
+      float: none;
+      width: 30%;
+      margin: 0 auto;
+  }
+  footer .inner .address {
+      float: none;
+      width: 100%;
+      text-align: center;
+      margin: 0 auto;
+  }
+}
+
+
+
