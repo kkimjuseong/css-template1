@@ -482,6 +482,46 @@ footer .inner .list li a:hover {
   }
 }
 
+/* 태블릿 L사이즈, 노트북 S사이즈 해상도 */
+@media (max-width: 1024px) {
+  header .inner-header nav {
+    display: none;
+  }
 
+  header .inner-header .gnb-mobile {
+    display: block;
+    font-size: 40px;
+    color: #fff;
+    float: right;
+  }
+  section.main .main-title {
+    width: 80%;
+  }
+  section.main .main-title h2 {
+    font-size: 40px;
+  }
+  section.innovation .img-box {
+    height: 400px;
+  }
+  section.innovation .img-box .inner .bottom {
+    padding: 25px 55px;
+  }
+  section.me ul.list ul.in li p::before {
+    left: -20px;
+  }
+  section.sns ul li .img-box {
+    height: 175px;
+  }
+  section.sns ul li .bottom {
+    padding-left: 5px;
+  }
+
+  footer .inner .list {
+    display: none;
+  }
+  footer .inner .ft-logo {
+    margin-top: 15px;
+  }
+}
 
 
